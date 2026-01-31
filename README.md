@@ -160,17 +160,6 @@ Otwórz w edytorze następujące pliki i sprawdź, czy zawierają docstringi/kom
 
 ---
 
-## 📋 Szybka Checklista dla Prowadzącego
-
-- [ ] Aplikacja uruchamia się bez błędów (`flask run`)
-- [ ] Strona `/info` wyświetla pogodę, kalendarz i ostrzeżenia
-- [ ] Przycisk "Archiwizuj Alerty" pobiera plik JSON
-- [ ] Kod zawiera komentarze (docstrings)
-- [ ] Ten plik README zawiera listę zmienionych plików
-- [ ] Projekt jest na GitHubie (link: _____________)
-
----
-
 *Dziękuję za rozpatrzenie mojej prośby o podwyższenie oceny.*
 
 *Hubert Czernicki*
