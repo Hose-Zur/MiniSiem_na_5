@@ -6,6 +6,9 @@
 
 ---
 
+## 🔑 Credentials:
+admin:admin
+
 ## 📑 Spis Treści
 1. [Realizacja Wymagań od P. Ossysek](#1-realizacja-wymagań-od-p-ossysek)
 2. [Lista Zmienionych i Dodanych Plików](#2-lista-zmienionych-i-dodanych-plików)
