@@ -120,6 +120,8 @@ def get_windows_info(host_id):
             "free_ram_mb": free_ram_mb, "disk_info": disk_percentage,
             "disk_total": disk_total, "cpu_load": cpu_load, "uptime_hours": f"{hours}h {minutes}m"
         }), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 # ===================================================================
 # MIEJSCE NA TWOJĄ IMPLEMENTACJĘ (ZADANIE 2 i 3)
