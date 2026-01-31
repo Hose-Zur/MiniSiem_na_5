@@ -1,0 +1,23 @@
+# app/blueprints/ui.py
+from flask import Blueprint, render_template
+from flask_login import login_required
+
+ui_bp = Blueprint('ui', __name__)
+
+@ui_bp.route('/')
+@login_required
+def index():
+    # To jest teraz Dashboard Monitoringu
+    return render_template('index.html')
+
+@ui_bp.route('/config')
+@login_required
+def config():
+    # To jest nowa strona administracyjna
+    return render_template('config.html')
+
+@ui_bp.route('/info')
+@login_required
+def info():
+    # Dodatkowa strona z pogodą i kalendarzem (Zadanie dodatkowe)
+    return render_template('info.html')
